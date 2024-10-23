@@ -1,0 +1,439 @@
+<html lang="es">
+<head><meta charset="utf-8">
+<title>Redes de Computadoras</title>
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+<link rel="shortcut icon" href="images/newlogo.png"/>
+</head> 
+<body style="background-color: black; background-size: 100% 100%;background-attachment: fixed; font-size: 35px;text-align: center;color: white;">
+
+
+<button id="playAudio">Reproducir Música</button>
+    <audio id="audio" loop>
+        <source src="images/hotelcalifornia.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <script>
+        document.getElementById('playAudio').addEventListener('click', function() {
+            const audio = document.getElementById('audio');
+            audio.play(); 
+            this.style.display = 'none'; 
+        });
+    </script>
+
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/newlogo.png" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">AxellJonathan.com</a></li>
+                </ul>
+            </nav>
+             <div class="container">
+            <div class="logo">
+                <img src="images/newlogo.png" alt="Logo">
+            </div>
+            
+    </header>
+
+<section id="titulo" style="background-color:black;width: full;height: relative;text-align: center;font-family:arial black;color: gold ;font-size: 60px;">
+    <b><i>REDES DE COMPUTADORAS</b></i><br><br>
+    <img src="images/doscompus.gif" align="center" width="450px" height="300px"><br><br>
+</section>
+
+<section id="introduccion" style="background-color: black;width: full;height: relative;text-align: center;font-family:arial black;color: orangered;font-size: 30px;">
+    ¿QUE ES UNA RED?<br><br>
+    <section id="introduccion2" style="background-color: black;width: full;height: relative;text-align: justify;font-family:arial;color:whitesmoke;font-size: 20px;"><p>Una red es un sistema interconectado de dispositivos electronicos,como computadoras, servidores, dispositivos moviles y otros dispositivos, que se comunican entre si mediante protocolos predefinidos con el fin de intercambiar informacion eficazmente.
+        </p><p>Las redes pueden ser tanto redes locales que conectan dispositivos dentro de un area limitada,<br>como redes globales, tal es el caso del internet, que abarcan todo el mundo.</p><br><br>
+        
+<center>
+        <video width="848" height="496" autoplay controls>
+            <source src="images/videoredes.mp4" type="video/mp4">
+                <p>TU NAVEGADOR NO ADMITE ESTE TIPO DE ARCHIVO</p>
+        </video>
+</center>
+        
+<section id="introduccion2" style="background-color: black;width: full;height: relative;text-align: center;font-family:arial;color:gray;font-size: 10px;">Tomado de:<a href="https://youtu.be/z7Q_NRGyKt4?si=0TcWGeHd-pedwfGJ">Microaprendizaje</a><br>
+        <br><br></section></section>
+    <section id="introduccion2" style="background-color: black;width: full;height: relative;text-align: justify;font-family:arial;color:whitesmoke;font-size: 20px;">En la actualidad las redes se conectan entre si de manera inalambrica, pero si se requiere soporte fisico para mayor fiablididad para transportar los datos se utiliza alguno de los siguientes medios fisicos:<br><br><center><img src="images/medios.png" align="center" width="full" height="full"></center><br>
+</section></section></div></b></section></div>
+
+<section id="introduccion" style="background-color: black;width: full;height: relative;text-align: center;font-family:arial black;color: orangered;font-size: 30px;">
+    TIPOS DE REDES<br>
+    <section id="introduccion2" style="background-color: black;width: full;height: relative;text-align: center;font-family:arial;color:whitesmoke;font-size: 20px;">Las redes se clasifican por el área geográfica que cubren y las tecnologías empleadas. Los tipos principales incluyen:
+</section></section></div>
+
+
+
+
+<br><br>
+<div class="container">
+<section class="busimagen" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: red;font-size: 25px;"><center>
+    <h1>PAN(Personal Area Network)</h1><br>
+    <section class="busimagen" style="background-color: black;width: full;height: relative;font-family:arial;text-align: justify; color: white;font-size: 20px;"><p>Las redes de área personal son un tipo de red de comunicaciones inalámbricas que permiten la conexión y transferencia de datos entre dispositivos cercanos, como teléfonos móviles, tabletas, computadoras portátiles, dispositivos inteligentes y otros periféricos.</p>
+<p>se basan en tecnologías con una señal de radio de corto alcance como Bluetooth, Wi-Fi Direct o Near Field Communication (NFC).</p></section>
+</section>
+</center>
+
+
+<section class="busderecho" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: red;font-size: 20px;"><center>
+    <h2></h2><br>
+    <img src="images/redpan.webp" alt="Imagen Derecha" class="topologiabus">
+    <p></p>
+</center>
+</section>
+</div></section>
+
+
+
+
+<br><br>
+<div class="container">
+<section class="busimagen" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: red;font-size: 20px;"><center>
+    <h2></h2><br>
+    <img src="images/redlan.gif" alt="Imagen Derecha" class="topologiabus">
+    <p></p>
+</center>
+</section>
+
+<section class="busderecho" style="background-color: black;width: full;height: relative;font-family:arial;text-align: justify; color: red;font-size: 25px;"><center>
+    <h1>LAN (Local Area Network)</h1><br></center>
+    <section class="busderecho" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: white;font-size: 20px;">
+<p>Una LAN es una red de área local que sirve para conectar dispositivos electrónicos que comparten el mismo espacio físico, como por ejemplo una vivienda.</p><p>Las redes LAN funcionan conectando sus dispositivos a través de un router y una red centrales. Piense en dispositivos como equipos, impresoras y teléfonos como destinos y en la red como las caminos que conectan estos destinos.</p>
+</section>
+</div>
+
+
+
+<br><br>
+<div class="container">
+<section class="busimagen" style="background-color: black;width: full;height: relative;font-family:arial;text-align: justify; color: red;font-size: 25px;"><center>
+    <h1>CAN (Campus Area Network)</h1><br></center>
+    <section class="busimagen" style="background-color: black;width: full;height: relative;font-family:arial;text-align: justify; color: white;font-size: 20px;"><p>Una red de área de campus es una red que abarca un área geográfica limitada. Las CAN interconectan varias redes de área local (LAN) dentro de un campus educativo o corporativo. La mayoría de las CAN se conectan a la Internet pública.<p>Las instalaciones corporativas lo suficientemente grandes como para que se las considere un "campus" también pueden operar con CAN para los mismos fines.</p></section>
+</section>
+</center>
+
+
+<section class="busderecho" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: red;font-size: 20px;"><center>
+    <h2></h2><br>
+    <img src="images/redcan.png" alt="Imagen Derecha" class="topologiabus">
+    <p></p>
+</center>
+</section>
+</div></section>
+
+
+
+
+<br><br>
+<div class="container">
+<section class="busimagen" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: red;font-size: 20px;"><center>
+    <h2></h2><br>
+    <img src="images/redman.jpg" alt="Imagen Derecha" class="topologiabus">
+    <p></p>
+</center>
+</section>
+
+<section class="busderecho" style="background-color: black;width: full;height: relative;font-family:arial;text-align: justify; color: red;font-size: 25px;"><center>
+    <h1>MAN (Metropolitan Area Network)</h1><br></center>
+    <section class="busderecho" style="background-color: black;width: full;height: relative;font-family:arial;text-align: justify; color: white;font-size: 20px;">
+<p>Una red MAN es una infraestructura de comunicación que abarca un área geográfica más amplia que una red LAN pero más pequeña que una red WAN.</p><p>Las redes MAN se utilizan para conectar múltiples ubicaciones dentro de una ciudad o área metropolitana, permitiendo la transferencia de datos y la comunicación eficiente entre ellas. </p><p> Las MAN pueden ampliarse hasta 100 kilómetros y, por lo tanto, también son posibles en áreas rurales. </p>
+</section>
+</div>
+
+<br><br>
+<div class="container">
+<section class="busimagen" style="background-color: black;width: full;height: relative;font-family:arial;text-align: justify; color: red;font-size: 25px;"><center>
+    <h1>WAN (Wide Area Network)</h1><br></center>
+    <section class="busimagen" style="background-color: black;width: full;height: relative;font-family:arial;text-align: justify; color: white;font-size: 20px;"><p>Es una red informática que conecta redes más pequeñas. Una WAN es esencialmente una red de redes extendida en un área geográfica amplia.</p>
+<p>Dado que las redes WAN no están vinculadas a una ubicación específica, estas permiten que las redes pequeñas (como pueden ser redes LAN), que se encuentran separadas a grandes distancias, se comuniquen entre sí para el intercambio de información, siendo Internet la WAN más grande del mundo.</p></section>
+</section>
+
+
+
+<section class="busderecho" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: red;font-size: 20px;"><center>
+    <h2></h2><br>
+    <img src="images/redwan.gif" alt="Imagen Derecha" class="topologiabus">
+    <p></p>
+</center>
+</section>
+</div></section>
+
+
+<section class="busderecho" style="background-color: black;width: full;height: relative;font-family:arial;text-align: justify; color: red;font-size: 25px;"><center><br>
+    <h1>PROTOCOLOS DE RED</h1><br>
+    <img src="images/protocolos.gif" align="center" width="450px" height="300px"></center><br><br>
+    <section id="introduccion2" style="background-color: black;width: full;height: relative;text-align: justify;font-family:arial;color:white;font-size: 20px;"><p>Los protocolos de red son conjuntos de reglas y estándares que permiten la comunicación entre dispositivos en una red de computadoras.Estos protocolos establecen la forma en que se transmiten, reciben, procesan y entregan los datos en una red, así como también cómo se detectan y corrigen los errores de transmisión.</p> <p>Existen varios tipos de protocolos de red que se utilizan en la comunicación de dispositivos en una red. Algunos de los protocolos más comunes son:</p><br><br>
+
+    <section class="protocol">
+        <h2>HTTP</h2>
+        <div class="content">
+            <img src="images/http.jpg" alt="HTTP Protocolo" class="protocol-img">
+            <p>Es el protocolo que permite la transferencia de documentos web (como páginas HTML) a través de la World Wide Web. Funciona en un modelo cliente-servidor, donde el cliente solicita recursos y el servidor los entrega.</p>
+        </div>
+    </section>
+
+    <section class="protocol">
+        <h2>FTP</h2>
+        <div class="content">
+            <img src="images/ftp.jpg" alt="FTP Protocolo" class="protocol-img">
+            <p>Es un protocolo para la transferencia de archivos entre un cliente y un servidor. FTP permite descargar o subir archivos desde y hacia un servidor de manera segura o no segura.</p>
+        </div>
+    </section>
+
+    <section class="protocol">
+        <h2>TCP/IP</h2>
+        <div class="content">
+            <img src="images/tcp.jpg" alt="TCP/IP Protocolo" class="protocol-img">
+            <p>Son protocolos que definen cómo los datos se envían y reciben en una red. TCP se encarga de asegurar que los datos lleguen completos y en el orden correcto, mientras que IP se encarga de dirigir los paquetes de datos al destino correcto.</p>
+        </div>
+    </section>
+
+    <section class="protocol">
+        <h2>DNS</h2>
+        <div class="content">
+            <img src="images/dns.png" alt="DNS Protocolo" class="protocol-img">
+            <p>Es el protocolo que traduce nombres de dominio (como www.ejemplo.com) en direcciones IP que los sistemas de red utilizan para localizar y acceder a sitios web.</p>
+        </div>
+    </section>
+
+    <section class="protocol">
+        <h2>SMTP</h2>
+        <div class="content">
+            <img src="images/smtp.jpg" alt="SMTP Protocolo" class="protocol-img">
+            <p>Protocolo utilizado para el envío de correos electrónicos a través de redes. SMTP define cómo los correos electrónicos deben enviarse desde el cliente hasta el servidor de correo y luego a otros servidores de destino.</p>
+        </div>
+    </section>
+
+    <section class="protocol">
+        <h2>POP3</h2>
+        <div class="content">
+            <img src="images/pop.jpg" alt="POP3 Protocolo" class="protocol-img">
+            <p>Protocolo para recibir correos electrónicos, que descarga los correos del servidor al dispositivo local y, por lo general, los elimina del servidor.</p>
+        </div>
+    </section>
+
+    <section class="protocol">
+        <h2>HTTPS</h2>
+        <div class="content">
+            <img src="images/https.png" alt="HTTPS Protocolo" class="protocol-img">
+            <p>Es una versión segura de HTTP, que utiliza encriptación SSL/TLS para proteger la transferencia de datos entre el cliente y el servidor. Garantiza la privacidad y seguridad de los datos transmitidos.</p>
+        </div>
+    </section>
+<BR><BR>
+
+
+<section id="introduccion" style="background-color: black;width: full;height: relative;text-align: center;font-family:arial black;color: orangered;font-size: 30px;">
+    TOPOLOGIAS DE RED<br><br>
+    <section id="introduccion2" style="background-color: black;width: full;height: relative;text-align:justify;font-family:arial;color:whitesmoke;font-size: 20px;"><center><img src="images/topologias.jpg" align="center" width="450px" height="300px"></center><br><br>Las topologías de red se refieren a la disposición física o lógica de los dispositivos y conexiones en una red de computadoras.<p>El diseño de la red puede influir en su rendimiento, escalabilidad y gestión. A continuación, se describen algunas de las topologías más comunes:</p>
+</section></section></div>
+
+
+<center>
+        <video width="848" height="496" autoplay controls>
+            <source src="images/videotopologia.mp4" type="video/mp4">
+                <p>TU NAVEGADOR NO ADMITE ESTE TIPO DE ARCHIVO</p>
+        </video>
+</center>
+        
+<section id="introduccion2" style="background-color: black;width: full;height: relative;text-align: center;font-family:arial;color:gray;font-size: 10px;">Tomado de:<a href="https://youtu.be/GqIFy_0di_Q?si=8rrkor7oN-xvrqXa">Fundacion Carlos Slim</a><br>
+        <br><br></section></section>
+
+
+
+<br><br>
+<div class="container">
+<section class="busimagen" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: red;font-size: 20px;"><center>
+    <h2></h2><br>
+    <img src="images/topologiabus.png" alt="Imagen Derecha" class="topologiabus">
+    <p></p>
+</center>
+</section>
+
+<section class="busderecho" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: red;font-size: 25px;"><center>
+    <h1>TOPOLOGIA DE BUS</h1><br>
+    <section class="busderecho" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: white;font-size: 20px;"><center><p>Estan coectados a un circuito comun(bus).<br>
+        La informacion que se envia de una PC a otra viaja directa o indirectamente, si una PC falla, la comunicacion se mantiene, no sucede lo mismo si el bus es el que falla.<br>
+El tipo de cableado que se usa puede ser coaxial, par trenzado o fibra optica.</p></center></section>
+</center>
+</section>
+</div>
+
+
+<br><br>
+<div class="container">
+<section class="busimagen" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: red;font-size: 25px;"><center>
+    <h1>TOPOLOGIA DE ESTRELLA</h1><br>
+    <section class="busimagen" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: white;font-size: 20px;"><center><p>Red en la cual las estaciones estan conectadas directamente a un punto central y todas las comunicaciones se hacen necesariamente atraves de este.</p>
+<p>La mayoria de las redes tienen un enrutador(router), un conmutador(switch) o un concentrador(hub) por el que pasa todos los paquetes en esta topologia.</p></center></section>
+</section>
+</center>
+
+
+<section class="busderecho" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: red;font-size: 20px;"><center>
+    <h2></h2><br>
+    <img src="images/topologiaestrella.png" alt="Imagen Derecha" class="topologiabus">
+    <p></p>
+</center>
+</section>
+</div></section>
+
+
+<div class="container">
+<section class="izquierdo" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: darkviolet;font-size: 20px;"><center>
+    <h1>VENTAJAS</h1><br>
+    <img src="images/ventaja.png" alt="Ventaja" class="ventaja"><br><br>
+    <section class="izquierdo" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: white;font-size: 20px;"><center>
+        <li>Si una PC se desconecta o se rompe el cable solo queda fuera de la red esa PC.</li>
+<li>Permite que todos los nodos se comuniquen entre si de manera conveniente</li>
+</center></section>
+</section></center></section>
+
+<section class="derecho" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: darkviolet;font-size: 20px;"><center>
+    <h1>DESVENTAJAS</h1><br>
+    <img src="images/desventaja.png" alt="Desventaja" class="desventaja"><br><br>
+    <section class="derecho" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: white;font-size: 20px;"><center>
+<li>Si el nodo central falla toda la red se desconecta.</li>
+<li>El cable viaja por separado del hub a cada computadora</li>
+</section>
+</center>
+</div>
+
+
+<br><br>
+<div class="container">
+<section class="busimagen" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: red;font-size: 20px;"><center>
+    <h2></h2><br>
+    <img src="images/topologiamalla.png" alt="Imagen Derecha" class="topologiabus">
+    <p></p>
+</center>
+</section>
+
+<section class="busderecho" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: red;font-size: 25px;"><center>
+    <h1>TOPOLOGIA DE MALLA</h1><br>
+    <section class="busderecho" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: white;font-size: 20px;"><center>
+<p>Red donde cada nodo esta conectado a todos los nodos. Es posible llevar los mensajes atraves de diferentes caminos, no puede existir absolutamente ninguna interrupcion en las comunicaciones.</p>
+<p>Estan conectados todos con todos, mediante cables separados.</p>
+<p>La red puede funcionar incluso cuando un nodo desaparece o falla ya que el resto de los nodos evitan el paso por ese punto.</p>
+
+</center>
+</section>
+</div>
+
+<div class="container">
+<section class="izquierdo" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: darkviolet;font-size: 20px;"><center>
+    <h1>VENTAJAS</h1><br>
+    <img src="images/ventaja.png" alt="Ventaja" class="ventaja"><br><br>
+    <section class="izquierdo" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: white;font-size: 20px;"><center>
+        <li>Si falla un cable el otro se hara cargo del trafico.</li>
+<li>No requiere un nodo o servidor central lo que reduce el mantenimiento.</li>
+</center>
+</section></center></section>
+
+<section class="derecho" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: darkviolet;font-size: 20px;"><center>
+    <h1>DESVENTAJAS</h1><br>
+    <img src="images/desventaja.png" alt="Desventaja" class="desventaja"><br><br>
+    <section class="derecho" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: white;font-size: 20px;"><center><li>Es costoso de instalar ya que utiliza demasiado cable.</li>
+</section>
+</center>
+</div>
+
+
+<br><br>
+<div class="container">
+<section class="busimagen" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: red;font-size: 25px;"><center>
+    <h1>TOPOLOGIA DE ARBOL</h1><br>
+    <section class="busimagen" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: white;font-size: 20px;"><center>
+<p>Red en la cual por su topologia todos los nodos o computadoras estan colocados en forma de arbol.</p>
+</section>
+</center>
+</section></center></section>
+
+<section class="busderecho" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: red;font-size: 20px;"><center>
+    <h2></h2><br>
+    <img src="images/topologiaarbol.png" alt="Imagen Derecha" class="topologiabus">
+    <p></p>
+</center>
+</section>
+</div>
+
+
+<div class="container">
+<section class="izquierdo" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: darkviolet;font-size: 20px;"><center>
+    <h1>VENTAJAS</h1><br>
+    <img src="images/ventaja.png" alt="Ventaja" class="ventaja"><br><br>
+    <section class="izquierdo" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: white;font-size: 20px;"><center>
+<li>El hub central al transmitir las señales amplifica la potencia e incrementa la distancia a la que puede viajar la señal.</li>
+<li>Se permite conectar mas dispositivos gracias a la inclusion de concentradores secundarios.</li>
+</center>
+</section></center></section>
+
+<section class="derecho" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: darkviolet;font-size: 20px;"><center>
+    <h1>DESVENTAJAS</h1><br>
+    <img src="images/desventaja.png" alt="Desventaja" class="desventaja"><br><br>
+    <section class="derecho" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: white;font-size: 20px;"><center>
+<li>Si se viene abajo el segmento principal todo el segmento se viene abajo.</li>
+<li>Es mas dificil su configuracion</li>
+</section>
+</center>
+</div>
+
+
+<br><br>
+<div class="container">
+<section class="busimagen" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: red;font-size: 20px;"><center>
+    <h2></h2><br>
+    <img src="images/topologiaanillo.png" alt="Imagen Derecha" class="topologiabus">
+    <p></p>
+</center>
+</section>
+
+<section class="busderecho" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: red;font-size: 25px;"><center>
+    <h1>TOPOLOGIA DE ANILLO</h1><br>
+    <section class="busderecho" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: white;font-size: 20px;"><center>
+<p>En esta red la comunicacion se da por el paso de un toque o un testigo que se puede conceptualizar como un cartero que pasa recogiendo y recibiendo paquetes.</p>De esta manera se evitan eventuales perdidas de la informacion.</p>
+</center>
+</section>
+</div>
+
+<div class="container">
+<section class="izquierdo" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: darkviolet;font-size: 20px;"><center>
+    <h1>VENTAJAS</h1><br>
+    <img src="images/ventaja.png" alt="Ventaja" class="ventaja"><br><br>
+    <section class="izquierdo" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: white;font-size: 20px;"><center>
+<li>Simplicidad de arquitectura</li>
+<li>Facilidad de fluidez de datos</li>
+</center>
+</section></center></section>
+
+<section class="derecho" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: darkviolet;font-size: 20px;"><center>
+    <h1>DESVENTAJAS</h1><br>
+    <img src="images/desventaja.png" alt="Desventaja" class="desventaja"><br><br>
+    <section class="derecho" style="background-color: black;width: full;height: relative;font-family:arial;text-align: left; color: white;font-size: 20px;"><center>
+<li>Longitud de canales limitados</li>
+<li>Lentitud de transferencias de datos</li>
+</section>
+</center>
+</div>
+
+<div class="fin">
+        <h1>Gracias por visitar este blog</h1>
+    </div>
+<br><br><br><br><br>
+<footer  style="width:100%; margin-left: 0px;background-color: red;"  >
+
+<div class="copyright" style="background-color: black;">
+    <div class="logo">
+                <img src="images/newlogo.png" alt="Logo">
+            </div>
+    <div class="container-fluid" style="background-color: black; color: whiteh;font-size: 15px;">
+        ©2024. Axell Jonathan Mendez Perez<br><br>
+    </div>
+            <div class="social-media" align="center">
+                <a href="https://www.instagram.com/soyaxelljonathan" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+                <a href="mailto:axellseiyaof@gmail.com?Subject=Saludos%20he%20visitado%20su%20blog"><img src="images/correo.png" alt="Correo Electrónico"></a>
+            </div>
+</div>

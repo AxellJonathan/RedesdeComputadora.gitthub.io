@@ -1,0 +1,205 @@
+.container {
+  display: flex;
+}
+
+.izquierdo {
+  flex: 1;
+  padding: 20px;
+}
+.derecho{
+  flex: 1;
+  padding: 20px;
+}
+
+.izquierdo {
+  background-color: #f0f0f0;
+}
+
+.derecho {
+  background-color: #eaeaea;
+}
+.imgizquierda {
+  width: 200px; 
+  height: auto;
+}
+
+.imgderecha {
+  width: 350px;
+  height: auto;
+}
+.topologiabus{
+  width: 500px;
+  height: auto;
+}
+.ventaja {
+  width: 200px; 
+  height: auto;
+}
+.desventaja {
+  width: 200px; 
+  height: auto;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  margin: 0;
+  margin-bottom: 10px;
+}
+footer {
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.help button {
+    background-color: mediumvioletred;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+    cursor: pointer;
+}
+.mensaje-ayuda {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: none;
+    z-index: 9999;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+<style>
+        audio {
+            display: none;
+        }
+
+ #playAudio {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #f44336; 
+            color: white; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+        }
+
+        #playAudio:hover {
+            background-color: #d32f2f; 
+        }
+    </style>
+</head>
+
+
+.protocol {
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    color: #0056b3;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.protocol-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+p {
+    flex: 1;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.fin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* Ocupa toda la altura de la pantalla */
+    background-color: red; /* Fondo rojo */
+    text-align: center;
+}
+
+.fin h1 {
+    color: white;
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+}
+
+/* Hacer el texto responsivo */
+@media (max-width: 768px) {
+    .fin h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .fin h1 {
+        font-size: 1.2rem;
+    }
+}
